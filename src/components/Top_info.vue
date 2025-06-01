@@ -1,6 +1,8 @@
 <template>
     <div class="top-bar">
-        <h1>GIS---The science of where!</h1>
+        <h1>
+            <a href="https://GIs.com">GIS---The science of where!</a>
+        </h1>
     </div>
 </template>
 
@@ -31,5 +33,12 @@
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* 添加文字阴影 */
+}
+.top-bar a {
+    color: white;
+    text-decoration: none; /* 去掉链接下划线 */
+}
+.top-bar a:hover {
+    text-decoration: underline; /* 添加悬停效果 */
 }
 </style>
